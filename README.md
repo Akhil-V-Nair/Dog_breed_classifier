@@ -25,13 +25,16 @@ Part - 2: ( Extra brownie points! )
 Build an API around the model inference pipeline which takes in an Input image in Base64 and
 responds with the appropriate dog breed. Any framework of choice can be used but the API needs
 to follow REST architecture and shall be deployed publicly.
+
 ● The input format needs to be :
 {
 image : <base64 encoded image>
 }
+  
 ● Expected response:
 {
 breed : <resulting label>
 score : <prediction score of the above label >
 }
+  
 ● A working api endpoint needs to be submitted as a result of this assignment.
